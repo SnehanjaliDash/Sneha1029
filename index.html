@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav class="nav-container">
+      <div class="nav-header">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="about" class="section text-center about_name">
+  <div class="x">
+    <img src="profolio.jpeg" alt="Suryakanta Photo" class="profile-img animate__animated animate__zoomIn">
+    <h1 class="name animate__animated animate__fadeInDown">Hello, I'm <span class="z">Sneha</span></h1>
+    <h2 id="typing" class="animate__animated animate__fadeInUp"></h2>
+    
+    <div class="hari_03 animate__animated animate__fadeIn">
+      <h1>About Me</h1>
+      <ul>
+        <li><span class="icon">🧠</span> <strong>Problem Solver:</strong> I enjoy solving complex problems with innovative, efficient solutions that simplify challenges and drive impactful results.</li>
+        <li><span class="icon">🔍</span> <strong>SOC Analyst:</strong> Experienced in monitoring security alerts, investigating incidents, and ensuring real-time threat detection and response.</li>
+        <li><span class="icon">🛡️</span> <strong>Cybersecurity Enthusiast:</strong> Passionate about securing systems, identifying vulnerabilities, and implementing robust defense strategies.</li>
+        <li><span class="icon">💻</span> <strong>Developer:</strong> I build scalable and secure systems & APIs.</li>
+        <li><span class="icon">📊</span> <strong>DSA Enthusiast:</strong> I excel in data structures and algorithms for efficient, optimized problem-solving.</li>
+       </ul>
+      <div class="cta">
+        Want to collaborate or connect?
+        <br>
+        <button class="copy-btn" onclick="copyEmail()"> Copy My Email</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="education" class="container section">
+  <h2 class="section-title">Education</h2>
+
+  <!-- High School -->
+  <div class="edu-card">
+    <div class="edu-content">
+      <img src="school.png" alt="Namatara High School" class="edu-img">
+      <div class="edu-info">
+        <a href="cominsoon.html"  target="_blank">
+          <h2>Namatara High School</h2>
+        </a>
+        <h4>Board of Secondary Education (BSE)</h4>
+        <p><i class="fas fa-calendar-alt"></i> Completed: 2021</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Higher Secondary -->
+  <div class="edu-card">
+    <div class="edu-content">
+      <img src="college.png" alt="Sailendra Narayan Higher Secondary School" class="edu-img">
+      <div class="edu-info">
+        <a href="cominsoon.html"  target="_blank">
+          <h2>Sailendra Narayan Higher Secondary School, Rajakanika</h2>
+        </a>
+        <h4>Higher Secondary Education (Science)</h4>
+        <p><i class="fas fa-calendar-alt"></i> Completed: 2023</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bachelor's Degree -->
+  <div class="edu-card">
+    <div class="edu-content">
+      <a href="https://www.litindia.ac.in/" target="_blank">
+      <img src="university.png" alt="Lakshya Institute of Technology" class="edu-img">
+      <div class="edu-info">
+        <a href="https://www.litindia.ac.in/" target="_blank">
+          <h2>Lakshya Institute of Technology, Bhubaneswar</h2>
+        </a>
+        <h4>Bachelor of Computer Applications (BCA)</h4>
+        <p><i class="fas fa-calendar-alt"></i> Pursuing – Expected Graduation: 2026</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="skills" class="section">
+  <div class="container text-center">
+    <h1 style="color: #ff5722;">My Skills</h1>
+
+    <div class="jumbotron jumbotron-fluid jumbotron-custom" style="background-color: #f8f9fa;">
+      <h2 class="skills-header" style="color: #343a40;">Cybersecurity & Technologies</h2>
+
+      <div class="icon-row">
+        <div class="icon-box">
+          <a href="https://www.wireshark.org/" target="_blank">
+            <i class="fas fa-network-wired" style="color: #17a2b8;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://nmap.org/" target="_blank">
+            <i class="fas fa-satellite-dish" style="color: #20c997;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://www.metasploit.com/" target="_blank">
+            <i class="fas fa-bug" style="color: #dc3545;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://www.elastic.co/what-is/elk-stack" target="_blank">
+            <i class="fas fa-database" style="color: #6610f2;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-box">
+          <a href="https://www.splunk.com/" target="_blank">
+            <i class="fas fa-search" style="color: #ff9800;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://www.gnu.org/software/bash/" target="_blank">
+            <i class="fas fa-terminal" style="color: #495057;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://docs.python.org/3/" target="_blank">
+            <i class="fab fa-python" style="color: #4B8BBE;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://learn.microsoft.com/en-us/powershell/" target="_blank">
+            <i class="fas fa-code" style="color: #0d6efd;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-box">
+          <a href="https://aws.amazon.com/" target="_blank">
+            <i class="fab fa-aws" style="color: #FF9900;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://cloud.google.com/" target="_blank">
+            <i class="fab fa-google" style="color: #4285F4;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://www.docker.com/" target="_blank">
+            <i class="fab fa-docker" style="color: #0db7ed;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://www.gnu.org/software/bash/manual/bash.html" target="_blank">
+            <i class="fas fa-cogs" style="color: #6f42c1;"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-box">
+          <a href="https://www.owasp.org/index.php/Burp_Suite" target="_blank">
+            <i class="fas fa-lock" style="color: #E91E63;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://www.wazuh.com/" target="_blank">
+            <i class="fas fa-eye" style="color: #28a745;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://www.zabbix.com/" target="_blank">
+            <i class="fas fa-chart-line" style="color: #fd7e14;"></i>
+          </a>
+        </div>
+        <div class="icon-box">
+          <a href="https://www.proxmox.com/" target="_blank">
+            <i class="fas fa-server" style="color: #6c757d;"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="projects" class="project_new_jumbotron">
+  <div class="project_new_container">
+    <h2 class="project_new_title">My Projects</h2>
+
+    <div class="project_new_grid">
+
+      <!-- IDS/IPS Project -->
+      <div class="project_new_card">
+           <img src="project.jpeg" alt="IDS/IPS" class="project_new_img">
+          <div class="project_new_overlay">
+            <div class="project_new_text">
+              Developed a custom IDS/IPS to detect and mitigate threats in real-time using signature and anomaly-based detection.<br>Issued: 2024
+            </div>
+          </div>
+          <div class="project_new_info">
+            <h5>IDS/IPS Replica</h5>
+          </div>
+        </a>
+      </div>
+
+      <!-- SIEM Tool Project -->
+      <div class="project_new_card">
+           <img src="project1.jpeg" alt="SIEM Tool" class="project_new_img">
+          <div class="project_new_overlay">
+            <div class="project_new_text">
+              Implemented a SIEM system using ELK/Splunk for centralized log collection, threat detection, and alert visualization.<br>Issued: 2024
+            </div>
+          </div>
+          <div class="project_new_info">
+            <h5>SIEM Implementation</h5>
+          </div>
+        </a>
+      </div>
+
+      <!-- ToDo List App -->
+      <div class="project_new_card">
+           <img src="https://www.shutterstock.com/image-vector/do-list-planning-icon-concept-600nw-739093225.jpg" alt="ToDo List" class="project_new_img">
+          <div class="project_new_overlay">
+            <div class="project_new_text">
+              A web-based to-do list app with priority tagging and persistent storage using localStorage.<br>Issued: March 2024
+            </div>
+          </div>
+          <div class="project_new_info">
+            <h5>ToDo List</h5>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tic Tac Toe Game -->
+      <div class="project_new_card">
+           <img src="tictac.jpeg" alt="Tic Tac Toe" class="project_new_img">
+          <div class="project_new_overlay">
+            <div class="project_new_text">
+              A fun and interactive browser-based Tic Tac Toe game built using HTML, CSS, and JavaScript.<br>Issued: Jan 2024
+            </div>
+          </div>
+          <div class="project_new_info">
+            <h5>Tic Tac Toe</h5>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <div id="contact" class="section   ">
+    <div class="container">
+      <div class="jumbotron con bg-info p-4 rounded">
+        <h2 class="contact-header text-center text-light">Contact</h2>
+        <div class="social-icons text-center mb-4">
+          <a href="https://www.linkedin.com/in/snehanjali-dash-a72b992b2/" target="_blank" class="text-light mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/snehanjalidash" target="_blank" class="text-light mx-2"><i class="fab fa-github fa-2x"></i></a>
+          <a href="https://www.instagram.com/itze__sneha/" target="_blank" class="text-light mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="dashsnehanjali868@gmail.com@gmail.com" target="_blank" class="text-light mx-2"><i class="fas fa-envelope fa-2x"></i></a>
+          <a href="https://wa.me/917738793053" target="_blank" class="text-light mx-2"><i class="fab fa-whatsapp fa-2x"></i></a>
+        </div>
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-light w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+   
+</body>
+</html>
